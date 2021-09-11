@@ -17,7 +17,7 @@
 }
 
 .centre-box {
-  flex: 2;
+  flex: 1;
 }
 
 #title {
@@ -25,10 +25,10 @@
 }
 
 .right-box {
-  flex: 2;
+  flex: 0.5;
 }
 
-.lineInfo_div a , .keywordAction a{
+.externalLink {
   text-decoration: none;
   color: #007185;
 }
@@ -47,19 +47,63 @@
   color: #007185;
 }
 
-.badge_div{
-    margin-top: 10px;
+.badge_div {
+  margin-top: 10px;
 }
 
-.badge-ac-declarative{
-   
-    background-color: black;
+.badge-ac-declarative {
+  background-color: black;
 }
 
-.ac-white{
-    color: white;
+.ac-white {
+  color: white;
 }
 
-.ac-yellow{
-    color: orange;
+.ac-yellow {
+  color: orange;
+}
+
+.a-text-right {
+  text-align: right;
+}
+
+.a-text-left {
+  text-align: left;
+}
+
+.oldInfo {
+  color: gray;
+}
+
+.newInfo {
+  color: #b12704;
+}
+
+.borderBlack {
+  border: 2px solid rgba(0, 0, 0, 0.185);
+}
+
+.boldInfo {
+  font-weight: bold;
+}
+
+.farm-content {
+  display: flex;
+}
+
+.icon-box {
+  margin: 10px;
+}
+
+.a-color-success {
+  color: #007600 !important;
+}
+
+.a-size-medium {
+  font-size: 18px !important;
+  line-height: 24px !important;
+}
+
+.a-span3{
+  width: 26.18%
 }
