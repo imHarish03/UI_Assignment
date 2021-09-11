@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  margin: 100px 200px;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.left-box {
+  margin: 0;
+  padding: 0;
+  flex: 1;
+}
+.top-micro {
+  list-style: none;
+  display: inline;
+  float: left;
+}
+
+.centre-box {
+  flex: 2;
+}
+
+#title {
+  font-size: 19px;
+}
+
+.right-box {
+  flex: 2;
+}
+
+.lineInfo_div a , .keywordAction a{
+  text-decoration: none;
+  color: #007185;
+}
+
+.checked {
+  color: orange;
+}
+
+.unchecked {
+  color: gray;
+}
+
+.overallRating {
+  margin: 0 20px;
+  text-decoration: none;
+  color: #007185;
+}
+
+.badge_div{
+    margin-top: 10px;
+}
+
+.badge-ac-declarative{
+   
+    background-color: black;
+}
+
+.ac-white{
+    color: white;
+}
+
+.ac-yellow{
+    color: orange;
+}
