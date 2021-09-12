@@ -107,3 +107,32 @@
 .a-span3{
   width: 26.18%
 }
+
+.a-align-center{
+text-align: center;
+}
+
+.a-box{
+  border: 1px solid gray;
+}
+
+.a-inner-box{
+  padding: 20px;
+}
+
+.a-button-normal{
+  border-radius: 25px;
+  height: 25px;
+  margin: 5px;
+}
+
+.a-backgroundColor-yellow{
+  background: #f3d943;
+}
+
+.a-backgroundColor-orange{
+  background: orange;
+}
+.a-margin-10{
+  margin: 10px;
+}
